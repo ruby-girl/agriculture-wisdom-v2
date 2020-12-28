@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/index"
+  ],
+  "subPackages": [
+    {
+      "root": "home",
+      "pages": [
+        "index"
+      ]
+    },
+    {
+      "root": "hacienda",
+      "pages": [
+        "index"
+      ]
+    },
+    {
+      "root": "market",
+      "pages": [
+        "index"
+      ]
+    },
+    {
+      "root": "user",
+      "pages": [
+        "index"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "usingComponents": {}
+}

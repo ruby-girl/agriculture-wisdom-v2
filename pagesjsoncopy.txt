@@ -1,0 +1,87 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/home",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/hacienda",
+			"style": {
+				"navigationBarTitleText": "农场"
+			}
+		},
+		{
+			"path": "pages/market",
+			"style": {
+				"navigationBarTitleText": "集市"
+			}
+		},
+		{
+			"path": "pages/user",
+			"style": {
+				"navigationBarTitleText": "个人中心"
+			}
+		}
+	],
+	"tabBar": {
+		"list": [{
+			"pagePath": "pages/home",
+			"text": "首页"
+		}, {
+			"pagePath": "pages/hacienda",
+			"text": "农场"
+		}, {
+			"pagePath": "pages/market",
+			"text": "集市"
+		}, {
+			"pagePath": "pages/user",
+			"text": "我的"
+		}]
+	},
+	"subPackages": [{
+			"root": "home",
+			"pages": [{
+				"path": "index",
+				"style": {
+					"navigationBarTitleText": "子页面"
+				}
+			}]
+		},
+		{
+			"root": "hacienda",
+			"pages": [{
+				"path": "index",
+				"style": {
+					"navigationBarTitleText": "子页面"
+				}
+			}]
+		},
+		{
+			"root": "market",
+			"pages": [{
+				"path": "index",
+				"style": {
+					"navigationBarTitleText": "子页面"
+				}
+			}]
+		},
+		{
+			"root": "user",
+			"pages": [{
+				"path": "index",
+				"style": {
+					"navigationBarTitleText": "子页面"
+				}
+			}]
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}

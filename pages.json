@@ -1,0 +1,55 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom"
+			}
+		}
+	],
+	
+	"subPackages": [{
+			"root": "home",
+			"pages": [{
+				"path": "index",
+				"style": {
+					"navigationBarTitleText": "首页详情"
+				}
+			}]
+		},
+		{
+			"root": "hacienda",
+			"pages": [{
+				"path": "index",
+				"style": {
+					"navigationBarTitleText": "子页面"
+				}
+			}]
+		},
+		{
+			"root": "market",
+			"pages": [{
+				"path": "index",
+				"style": {
+					"navigationBarTitleText": "子页面"
+				}
+			}]
+		},
+		{
+			"root": "user",
+			"pages": [{
+				"path": "index",
+				"style": {
+					"navigationBarTitleText": "子页面"
+				}
+			}]
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}

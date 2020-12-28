@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "home": "/pages/home",
+    "market": "/pages/market",
+    "hacienda": "/pages/hacienda",
+    "user": "/pages/user",
+    "footer-nav": "/components/FooterNav"
+  }
+}
