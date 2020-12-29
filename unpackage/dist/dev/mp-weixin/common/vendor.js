@@ -8014,9 +8014,9 @@ module.exports = g;
 /***/ }),
 
 /***/ 4:
-/*!************************************************************!*\
-  !*** C:/Users/YY/Desktop/agriculture-wisdom-v2/pages.json ***!
-  \************************************************************/
+/*!***************************************************************!*\
+  !*** C:/Users/admin/Desktop/agriculture-wisdom-v2/pages.json ***!
+  \***************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -8025,9 +8025,9 @@ module.exports = g;
 /***/ }),
 
 /***/ 66:
-/*!*****************************************************************!*\
-  !*** C:/Users/YY/Desktop/agriculture-wisdom-v2/assets/home.png ***!
-  \*****************************************************************/
+/*!********************************************************************!*\
+  !*** C:/Users/admin/Desktop/agriculture-wisdom-v2/assets/home.png ***!
+  \********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -8036,9 +8036,9 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACq
 /***/ }),
 
 /***/ 67:
-/*!******************************************************************!*\
-  !*** C:/Users/YY/Desktop/agriculture-wisdom-v2/assets/home_.png ***!
-  \******************************************************************/
+/*!*********************************************************************!*\
+  !*** C:/Users/admin/Desktop/agriculture-wisdom-v2/assets/home_.png ***!
+  \*********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -8047,9 +8047,9 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACq
 /***/ }),
 
 /***/ 68:
-/*!*********************************************************************!*\
-  !*** C:/Users/YY/Desktop/agriculture-wisdom-v2/assets/hacienda.png ***!
-  \*********************************************************************/
+/*!************************************************************************!*\
+  !*** C:/Users/admin/Desktop/agriculture-wisdom-v2/assets/hacienda.png ***!
+  \************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -8058,9 +8058,9 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACq
 /***/ }),
 
 /***/ 69:
-/*!**********************************************************************!*\
-  !*** C:/Users/YY/Desktop/agriculture-wisdom-v2/assets/hacienda_.png ***!
-  \**********************************************************************/
+/*!*************************************************************************!*\
+  !*** C:/Users/admin/Desktop/agriculture-wisdom-v2/assets/hacienda_.png ***!
+  \*************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -8069,9 +8069,9 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACq
 /***/ }),
 
 /***/ 70:
-/*!******************************************************************!*\
-  !*** C:/Users/YY/Desktop/agriculture-wisdom-v2/assets/sweep.png ***!
-  \******************************************************************/
+/*!*********************************************************************!*\
+  !*** C:/Users/admin/Desktop/agriculture-wisdom-v2/assets/sweep.png ***!
+  \*********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -8080,9 +8080,9 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACq
 /***/ }),
 
 /***/ 71:
-/*!*******************************************************************!*\
-  !*** C:/Users/YY/Desktop/agriculture-wisdom-v2/assets/sweep_.png ***!
-  \*******************************************************************/
+/*!**********************************************************************!*\
+  !*** C:/Users/admin/Desktop/agriculture-wisdom-v2/assets/sweep_.png ***!
+  \**********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -8091,9 +8091,9 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACq
 /***/ }),
 
 /***/ 72:
-/*!*******************************************************************!*\
-  !*** C:/Users/YY/Desktop/agriculture-wisdom-v2/assets/market.png ***!
-  \*******************************************************************/
+/*!**********************************************************************!*\
+  !*** C:/Users/admin/Desktop/agriculture-wisdom-v2/assets/market.png ***!
+  \**********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -8102,9 +8102,9 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACq
 /***/ }),
 
 /***/ 73:
-/*!********************************************************************!*\
-  !*** C:/Users/YY/Desktop/agriculture-wisdom-v2/assets/market_.png ***!
-  \********************************************************************/
+/*!***********************************************************************!*\
+  !*** C:/Users/admin/Desktop/agriculture-wisdom-v2/assets/market_.png ***!
+  \***********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -8113,9 +8113,9 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACq
 /***/ }),
 
 /***/ 74:
-/*!*****************************************************************!*\
-  !*** C:/Users/YY/Desktop/agriculture-wisdom-v2/assets/user.png ***!
-  \*****************************************************************/
+/*!********************************************************************!*\
+  !*** C:/Users/admin/Desktop/agriculture-wisdom-v2/assets/user.png ***!
+  \********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -8124,9 +8124,9 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACq
 /***/ }),
 
 /***/ 75:
-/*!******************************************************************!*\
-  !*** C:/Users/YY/Desktop/agriculture-wisdom-v2/assets/user_.png ***!
-  \******************************************************************/
+/*!*********************************************************************!*\
+  !*** C:/Users/admin/Desktop/agriculture-wisdom-v2/assets/user_.png ***!
+  \*********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -8134,10 +8134,10 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACq
 
 /***/ }),
 
-/***/ 83:
-/*!************************************************************************!*\
-  !*** C:/Users/YY/Desktop/agriculture-wisdom-v2/assets/orientation.png ***!
-  \************************************************************************/
+/***/ 90:
+/*!***************************************************************************!*\
+  !*** C:/Users/admin/Desktop/agriculture-wisdom-v2/assets/orientation.png ***!
+  \***************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -8145,10 +8145,10 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACq
 
 /***/ }),
 
-/***/ 84:
-/*!********************************************************************!*\
-  !*** C:/Users/YY/Desktop/agriculture-wisdom-v2/assets/go_back.png ***!
-  \********************************************************************/
+/***/ 91:
+/*!***********************************************************************!*\
+  !*** C:/Users/admin/Desktop/agriculture-wisdom-v2/assets/go_back.png ***!
+  \***********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 

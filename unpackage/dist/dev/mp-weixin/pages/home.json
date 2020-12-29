@@ -1,6 +1,7 @@
 {
   "component": true,
   "usingComponents": {
-    "tab-bar": "/components/HomeTabBar"
+    "tab-bar": "/components/HomeTabBar",
+    "uni-swiper-dot": "/components/uni-swiper-dot/uni-swiper-dot"
   }
 }
