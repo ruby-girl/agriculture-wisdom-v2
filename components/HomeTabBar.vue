@@ -1,11 +1,11 @@
 <!-- 顶部自定义组件-首页 -->
 <template>
-	<div class="tabbar_html" :style="{'margin-top':`${customBar}rpx`}">
+	<div class="tabbar_html" >
 		<!-- 左边 -->
 		<div class="box_left">
 			<image class="orientation_icon" :src="orientationIcon" mode="widthFix"></image>
 			<div class="orientation_city">{{orientationCity}}</div>
-			<image class="orientation_icon" :src="goBackIcon" mode="widthFix"></image>
+			<i class="fa fa-angle-right" style="font-size:30rpx"></i>
 		</div>
 		<!-- 中间 -->
 		<div class="box_content">{{title}}</div>
@@ -25,18 +25,17 @@
 		data() {
 			return {
 				orientationIcon: require('../assets/orientation.png'),
-				goBackIcon: require('../assets/go_back.png'),
 				customBar: "",
 				orientationCity: "绵阳"
 			};
 		},
 		beforeCreate() {
-			uni.getStorage({
-				key: "customBar",
-				success: (res) => {
-					this.customBar = res.data
-				}
-			})
+			// uni.getStorage({
+			// 	key: "customBar",
+			// 	success: (res) => {
+			// 		this.customBar = res.data
+			// 	}
+			// })
 		}
 
 	};
@@ -44,6 +43,7 @@
 
 <style lang="scss" scoped>
 	.tabbar_html {
+		margin-top: var(--status-bar-height);
 		position: relative;
 		width: 100vw;
 		height: 88rpx;

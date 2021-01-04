@@ -8,22 +8,27 @@
 			}
 		}
 	],
-	
+
 	"subPackages": [{
 			"root": "home",
 			"pages": [{
 				"path": "index",
 				"style": {
-					"navigationBarTitleText": "首页详情"
+					"navigationBarTitleText": "商品详情"
 				}
 			}]
 		},
 		{
 			"root": "hacienda",
 			"pages": [{
-				"path": "index",
+				"path": "list",
 				"style": {
-					"navigationBarTitleText": "子页面"
+					"navigationBarTitleText": "农场"
+				}
+			},{
+				"path": "details",
+				"style": {
+					"navigationBarTitleText": "农场详情"
 				}
 			}]
 		},
@@ -32,7 +37,7 @@
 			"pages": [{
 				"path": "index",
 				"style": {
-					"navigationBarTitleText": "子页面"
+					"navigationBarTitleText": "集市子页面"
 				}
 			}]
 		},
@@ -41,7 +46,7 @@
 			"pages": [{
 				"path": "index",
 				"style": {
-					"navigationBarTitleText": "子页面"
+					"navigationBarTitleText": "个人中心子页面"
 				}
 			}]
 		}
@@ -50,6 +55,10 @@
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "",
 		"navigationBarBackgroundColor": "#F8F8F8",
-		"backgroundColor": "#F8F8F8"
+		"backgroundColor": "#F8F8F8",
+		"scrollIndicator": "none", // 不显示滚动条  
+		"app-plus": {
+			"scrollIndicator": "none" //全局 在APP页面都不显示滚动条  
+		}
 	}
 }

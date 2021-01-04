@@ -1,0 +1,70 @@
+.list_slot_html.data-v-1935fdce {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  margin: 5rpx 14rpx;
+  padding: 12rpx 14rpx;
+  background: #fff;
+  -webkit-border-radius: 10rpx;
+          border-radius: 10rpx;
+}
+.hacienda_image.data-v-1935fdce {
+  width: 266rpx;
+  height: 220rpx;
+  -webkit-border-radius: 10rpx;
+          border-radius: 10rpx;
+  margin-right: 21rpx;
+}
+.hacienda_content.data-v-1935fdce {
+  padding: 0rpx 14rpx;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.hacienda_name.data-v-1935fdce {
+  font-size: 30rpx;
+  color: #333333;
+}
+.hacienda_introduce.data-v-1935fdce {
+  font-size: 17rpx;
+  color: #323232;
+  margin: 18rpx 0rpx;
+}
+.hacienda_address.data-v-1935fdce {
+  font-size: 17rpx;
+  color: #8b8b8b;
+}
+.hacienda_info.data-v-1935fdce {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  margin-top: 18rpx;
+}
+.hacienda_distance.data-v-1935fdce {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  font-size: 18rpx;
+  color: #c2c2c2;
+}
+.hacienda_num.data-v-1935fdce {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  font-size: 18rpx;
+  color: #333333;
+}
+

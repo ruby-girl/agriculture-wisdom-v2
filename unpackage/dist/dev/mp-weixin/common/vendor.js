@@ -1935,6 +1935,53 @@ function normalizeComponent (
 
 /***/ }),
 
+/***/ 104:
+/*!************************************************************************!*\
+  !*** C:/Users/YY/Desktop/agriculture-wisdom-v2/assets/orientation.png ***!
+  \************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/png;base64,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"
+
+/***/ }),
+
+/***/ 112:
+/*!*****************************************************************!*\
+  !*** C:/Users/YY/Desktop/agriculture-wisdom-v2/utils/public.js ***!
+  \*****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.Countdown = exports.momnet = void 0; // 时间转换
+var momnet = function momnet(val) {
+  if (typeof val === 'string') {
+    var data = date.substr(0, 19); //'2019-08-09T18:23:27'
+    return new Date(data.replace(/T/g, ' ').replace(/-/g, '/'));
+  } else {
+    var newDate = new Date(date);
+    return dateFormater.formatTime(newDate); // 2019/08/14 17:49:29
+  }
+};
+// 倒计时转换
+exports.momnet = momnet;var Countdown = function Countdown(val) {
+  var starttime = new Date(val); //时间一定要new Data一下
+  var nowtime = new Date();
+  // console.log(starttime)
+  // console.log(nowtime);
+  var time = starttime - nowtime;
+  // console.log(time)
+  var day = parseInt(time / 1000 / 60 / 60 / 24);
+  var hour = parseInt(time / 1000 / 60 / 60 % 24);
+  var minute = parseInt(time / 1000 / 60 % 60);
+  var seconds = parseInt(time / 1000 % 60);
+  return "".concat(hour < 10 ? '0' + hour : hour, ":").concat(minute < 10 ? '0' + minute : minute, ":").concat(seconds < 10 ? '0' + seconds : seconds);
+
+};exports.Countdown = Countdown;
+
+/***/ }),
+
 /***/ 2:
 /*!******************************************************************************************!*\
   !*** ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js ***!
@@ -8013,10 +8060,304 @@ module.exports = g;
 
 /***/ }),
 
+/***/ 35:
+/*!************************************************************!*\
+  !*** C:/Users/YY/Desktop/agriculture-wisdom-v2/api/api.js ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });Object.defineProperty(exports, "Home", { enumerable: true, get: function get() {return _home.default;} });Object.defineProperty(exports, "Hacienda", { enumerable: true, get: function get() {return _hacienda.default;} });var _home = _interopRequireDefault(__webpack_require__(/*! ./home */ 36));
+var _hacienda = _interopRequireDefault(__webpack_require__(/*! ./hacienda */ 38));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+
+/***/ }),
+
+/***/ 36:
+/*!*************************************************************!*\
+  !*** C:/Users/YY/Desktop/agriculture-wisdom-v2/api/home.js ***!
+  \*************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _request = _interopRequireDefault(__webpack_require__(/*! @/utils/request.js */ 37));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+// 首页api
+var Home = {
+  // 获取轮播图
+  getBroadcast: function getBroadcast() {
+    return _request.default.request({
+      url: 'marketing/api/shuffling/findAll',
+      method: 'post' });
+
+  },
+  // 获取首页商品
+  getHomeProduct: function getHomeProduct(data) {
+    return _request.default.request({
+      url: 'marketing/api/product/type',
+      method: 'post',
+      data: data });
+
+  } };var _default =
+
+
+Home;exports.default = _default;
+
+/***/ }),
+
+/***/ 37:
+/*!******************************************************************!*\
+  !*** C:/Users/YY/Desktop/agriculture-wisdom-v2/utils/request.js ***!
+  \******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = {
+  config: {
+    baseUrl: "https://www.sc-kwt.com/",
+    imgUrl: "https://www.sc-kwt.com",
+    // baseUrl: "http://150.158.174.77",
+    // imgUrl: "http://150.158.174.77",
+    // baseUrl:"https://xyzn.tree-iot.com/",
+    // imgUrl:"https://xyzn.tree-iot.com",
+    header: {
+      'Content-Type': 'application/json',
+      'Authorization': '',
+      'token': '' },
+
+    data: {},
+    method: "GET",
+    dataType: "json",
+    /* 如设为json，会对返回的数据做一次 JSON.parse */
+    responseType: "text",
+    withCredentials: true,
+    success: function success() {},
+    fail: function fail() {},
+    complete: function complete() {} },
+
+  interceptor: {
+    request: null,
+    response: null },
+
+  request: function request(options) {var _this2 = this;
+    var _this = this;
+    uni.showLoading({
+      title: '加载中',
+      mask: true });
+
+    if (!options) {
+      options = {};
+    }
+    options.baseUrl = options.baseUrl || _this.config.baseUrl;
+    options.dataType = options.dataType || _this.config.dataType;
+    options.url = options.baseUrl + options.url;
+
+    options.data = options.data || {};
+
+    options.method = options.method || _this.config.method;
+    //TODO 加密数据	
+    //TODO 数据签名
+
+    options.header = {
+      'token': uni.getStorageSync('XYZNUserInfo').token || '',
+      'cookie': uni.getStorageSync('XYZNUserInfo').cookie || '',
+      'Content-Type': 'application/json' };
+
+
+    return new Promise(function (resolve, reject) {
+      var _config = null;
+
+      options.complete = function (response) {
+        var statusCode = response.statusCode;
+        response.config = _config;
+        if (true) {
+          if (statusCode === 200) {
+
+          }
+        }
+        if (_this2.interceptor.response) {
+          var newResponse = _this2.interceptor.response(response);
+          if (newResponse) {
+            response = newResponse;
+          }
+        }
+        // 统一的响应日志记录
+        _reslog(response);
+        if (statusCode === 200) {//成功
+          uni.hideLoading();
+          if (response.data.code == 200) {
+            resolve(response);
+          } else if (response.data.msg == 'USER_NOT_LOGIN') {
+            uni.showToast({
+              title: '请重新登录',
+              icon: 'none' });
+
+            uni.clearStorage();
+            getApp().globalData.isLogin = false;
+
+            reject(response);
+
+          } else {
+            uni.showToast({
+              title: response.data.msg,
+              icon: 'none' });
+
+            setTimeout(function () {
+              reject(response);
+            }, 1200);
+          }
+
+        } else {
+          uni.hideLoading();
+          wx.showToast({
+            title: response.data.msg || '请求错误 ',
+            icon: 'none',
+            duration: 2000 });
+
+          reject(response);
+        }
+      };
+
+      _config = Object.assign({}, _this2.config, options);
+      _config.requestId = new Date().getTime();
+
+      if (_this2.interceptor.request) {
+        _this2.interceptor.request(_config);
+      }
+
+      // 统一的请求日志记录
+      _reqlog(_config);
+
+      if (true) {
+
+        if (_config.data) {
+
+        }
+      }
+
+      uni.request(_config);
+    });
+  },
+  get: function get(url, data, options) {
+    if (!options) {
+      options = {};
+    }
+    options.url = url;
+    options.data = data;
+    options.method = 'GET';
+    return this.request(options);
+  },
+  post: function post(url, data, options) {
+    if (!options) {
+      options = {};
+    }
+    options.url = url;
+    options.data = data;
+    options.method = 'POST';
+    return this.request(options);
+  },
+  put: function put(url, data, options) {
+    if (!options) {
+      options = {};
+    }
+    options.url = url;
+    options.data = data;
+    options.method = 'PUT';
+    return this.request(options);
+  },
+  delete: function _delete(url, data, options) {
+    if (!options) {
+      options = {};
+    }
+    options.url = url;
+    options.data = data;
+    options.method = 'DELETE';
+    return this.request(options);
+  } };exports.default = _default;
+
+
+function getToken() {
+  uni.getStorage({
+    key: 'ddwb',
+    success: function success(e) {
+      return e.data.token; //这就是你想要取的token
+    } });
+
+}
+/**
+   * 请求接口日志记录
+   */
+function _reqlog(req) {
+
+
+
+
+
+
+
+} // if (process.env.NODE_ENV === 'development') {
+// 	console.log("【" + req.requestId + "】 地址：" + req.url)
+// 	if (req.data) {
+// 		console.log("【" + req.requestId + "】 请求参数：" + JSON.stringify(req.data))
+// 	}
+// }
+//TODO 调接口异步写入日志数据库
+/**
+ * 响应接口日志记录
+ */function _reslog(res) {// let _statusCode = res.statusCode;
+  // if (process.env.NODE_ENV === 'development') {
+  // 	console.log("【" + res.config.requestId + "】 地址：" + res.config.url)
+  // 	if (res.config.data) {
+  // 		console.log("【" + res.config.requestId + "】 请求参数：" + JSON.stringify(res.config.data))
+  // 	}
+  // 	console.log("【" + res.config.requestId + "】 响应结果：" + JSON.stringify(res))
+  // }
+  // //TODO 除了接口服务错误外，其他日志调接口异步写入日志数据库
+  // switch(_statusCode){
+  // 	case 200:
+  // 		break;
+  // 	case 401:
+  // 		break;
+  // 	case 404:
+  // 		break;
+  // 	default:
+  // 		break;
+  // }
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
+
+/***/ }),
+
+/***/ 38:
+/*!*****************************************************************!*\
+  !*** C:/Users/YY/Desktop/agriculture-wisdom-v2/api/hacienda.js ***!
+  \*****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;
+var _request = _interopRequireDefault(__webpack_require__(/*! @/utils/request.js */ 37));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };} // 农场
+var Hacienda = {
+  // 获取农场信息
+  getHacienda: function getHacienda(data) {
+    return _request.default.request({
+      url: 'tracing/api/farm/getOne',
+      method: 'post',
+      data: data });
+
+  } };var _default =
+
+
+Hacienda;exports.default = _default;
+
+/***/ }),
+
 /***/ 4:
-/*!***************************************************************!*\
-  !*** C:/Users/admin/Desktop/agriculture-wisdom-v2/pages.json ***!
-  \***************************************************************/
+/*!************************************************************!*\
+  !*** C:/Users/YY/Desktop/agriculture-wisdom-v2/pages.json ***!
+  \************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -8024,10 +8365,10 @@ module.exports = g;
 
 /***/ }),
 
-/***/ 66:
-/*!********************************************************************!*\
-  !*** C:/Users/admin/Desktop/agriculture-wisdom-v2/assets/home.png ***!
-  \********************************************************************/
+/***/ 80:
+/*!*****************************************************************!*\
+  !*** C:/Users/YY/Desktop/agriculture-wisdom-v2/assets/home.png ***!
+  \*****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -8035,10 +8376,10 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACq
 
 /***/ }),
 
-/***/ 67:
-/*!*********************************************************************!*\
-  !*** C:/Users/admin/Desktop/agriculture-wisdom-v2/assets/home_.png ***!
-  \*********************************************************************/
+/***/ 81:
+/*!******************************************************************!*\
+  !*** C:/Users/YY/Desktop/agriculture-wisdom-v2/assets/home_.png ***!
+  \******************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -8046,10 +8387,10 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACq
 
 /***/ }),
 
-/***/ 68:
-/*!************************************************************************!*\
-  !*** C:/Users/admin/Desktop/agriculture-wisdom-v2/assets/hacienda.png ***!
-  \************************************************************************/
+/***/ 82:
+/*!*********************************************************************!*\
+  !*** C:/Users/YY/Desktop/agriculture-wisdom-v2/assets/hacienda.png ***!
+  \*********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -8057,10 +8398,10 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACq
 
 /***/ }),
 
-/***/ 69:
-/*!*************************************************************************!*\
-  !*** C:/Users/admin/Desktop/agriculture-wisdom-v2/assets/hacienda_.png ***!
-  \*************************************************************************/
+/***/ 83:
+/*!**********************************************************************!*\
+  !*** C:/Users/YY/Desktop/agriculture-wisdom-v2/assets/hacienda_.png ***!
+  \**********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -8068,10 +8409,10 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACq
 
 /***/ }),
 
-/***/ 70:
-/*!*********************************************************************!*\
-  !*** C:/Users/admin/Desktop/agriculture-wisdom-v2/assets/sweep.png ***!
-  \*********************************************************************/
+/***/ 84:
+/*!******************************************************************!*\
+  !*** C:/Users/YY/Desktop/agriculture-wisdom-v2/assets/sweep.png ***!
+  \******************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -8079,10 +8420,10 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACq
 
 /***/ }),
 
-/***/ 71:
-/*!**********************************************************************!*\
-  !*** C:/Users/admin/Desktop/agriculture-wisdom-v2/assets/sweep_.png ***!
-  \**********************************************************************/
+/***/ 85:
+/*!*******************************************************************!*\
+  !*** C:/Users/YY/Desktop/agriculture-wisdom-v2/assets/sweep_.png ***!
+  \*******************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -8090,10 +8431,10 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACq
 
 /***/ }),
 
-/***/ 72:
-/*!**********************************************************************!*\
-  !*** C:/Users/admin/Desktop/agriculture-wisdom-v2/assets/market.png ***!
-  \**********************************************************************/
+/***/ 86:
+/*!*******************************************************************!*\
+  !*** C:/Users/YY/Desktop/agriculture-wisdom-v2/assets/market.png ***!
+  \*******************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -8101,10 +8442,10 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACq
 
 /***/ }),
 
-/***/ 73:
-/*!***********************************************************************!*\
-  !*** C:/Users/admin/Desktop/agriculture-wisdom-v2/assets/market_.png ***!
-  \***********************************************************************/
+/***/ 87:
+/*!********************************************************************!*\
+  !*** C:/Users/YY/Desktop/agriculture-wisdom-v2/assets/market_.png ***!
+  \********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -8112,10 +8453,10 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACq
 
 /***/ }),
 
-/***/ 74:
-/*!********************************************************************!*\
-  !*** C:/Users/admin/Desktop/agriculture-wisdom-v2/assets/user.png ***!
-  \********************************************************************/
+/***/ 88:
+/*!*****************************************************************!*\
+  !*** C:/Users/YY/Desktop/agriculture-wisdom-v2/assets/user.png ***!
+  \*****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -8123,36 +8464,14 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACq
 
 /***/ }),
 
-/***/ 75:
-/*!*********************************************************************!*\
-  !*** C:/Users/admin/Desktop/agriculture-wisdom-v2/assets/user_.png ***!
-  \*********************************************************************/
+/***/ 89:
+/*!******************************************************************!*\
+  !*** C:/Users/YY/Desktop/agriculture-wisdom-v2/assets/user_.png ***!
+  \******************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
 module.exports = "data:image/png;base64,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"
-
-/***/ }),
-
-/***/ 90:
-/*!***************************************************************************!*\
-  !*** C:/Users/admin/Desktop/agriculture-wisdom-v2/assets/orientation.png ***!
-  \***************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "data:image/png;base64,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"
-
-/***/ }),
-
-/***/ 91:
-/*!***********************************************************************!*\
-  !*** C:/Users/admin/Desktop/agriculture-wisdom-v2/assets/go_back.png ***!
-  \***********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAADGElEQVR4Xu2a23HbMBBFF1QBcQdRB1H+TQrqQK4gUgVRKrA7iFNB5AriDgyKLsDpwCUoBRjIrAacYRySAiEssHrwV+Ljnt1L3gUp4Mw3ceb64QLg0gFnToC1BfJ8NsX6VNVTSVUnlgCklBNj4BcAjK1wVZZqRgGBHQAr/gkArpqCtYZlVal1aAisAHSJR9Faw7eqUvcnCyDP5TzL4Of7ylvBf4SAiVLq9SQB5LlcWPFt+lC8VEq9hBaPx0tugZTikwMoCnkrBNx1VJa08vU5k3XAdCrR74sO8b9t228p2r55zCQAuIiPbgEp5ZUxuzv9PHXlo1vAiseAM2kTbww8bDaqyxJkTohiAa7io1jApjtse1aVj2KBvmhr4y1Jvh/iFzILHIN4MgtcX0s5Gu3G2X8muroyVJPdkMqTWWBftH17g/nzs1I+F0uxT1AL7BNPOdT4wgkGoCjkVyGga16Pkut9IAQB4BBt5xSzvI/g9/scDMBBPM7y5EONLwxvADbdfecw0fmK934MukTbLIMV58p7PwZdxKcYany7YJAFTk38YAvkuVxlGaDv/9uolq19K+u636AOKAp5JwTcthx8KwTMqFZuXcX4/G8QACnl2BjA5ekPpwJhEAAUbV9g4CuqNgj4Bif5iDukEwYDwIPbURcHmqOH4AXABYIxsNps1I8h1UjxX28ADQhoh08dF78uS7VMIcz1nAcBsBBwqRvtcJQQDgbgCOFRCFhyjMZBANQQtIZ7IeBLR/u92KzAajIMBqAWXRRyfUwQggNAEA4Q0A4k7/tdb37e06DrCfrmBgBgE51JOqCGtGeRlAUEUgA2Ovd9/rK1U2Twr79cO5UcgEtqTDk/RAHAGUI0AA0IjwDwkUt0jgrAMTVGnR+iA+AGIQmARnTGGWH3RXjLFiU6JwPAJTonB+AYnW+o3i2yAGAhdK0448+vQsBninGaDYB9qZEqLLEC0AdBa7ipKoUZIujGDgCqs98Yodh61Zns22GWAOxjcqw1LIyB7WgEawr/43nYAgja5z0HuwCIRZrreS4dwLUysa7rL2RwjFBlP5JtAAAAAElFTkSuQmCC"
 
 /***/ })
 

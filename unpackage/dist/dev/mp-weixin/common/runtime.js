@@ -105,11 +105,11 @@
 /******/
 /******/
 /******/ 		// mini-css-extract-plugin CSS loading
-/******/ 		var cssChunks = {"components/FooterNav":1,"pages/home":1,"components/HomeTabBar":1,"components/uni-swiper-dot/uni-swiper-dot":1};
+/******/ 		var cssChunks = {"components/FooterNav":1,"pages/home":1,"hacienda/components/listSlot":1,"components/HomeSlot":1,"components/HomeTabBar":1};
 /******/ 		if(installedCssChunks[chunkId]) promises.push(installedCssChunks[chunkId]);
 /******/ 		else if(installedCssChunks[chunkId] !== 0 && cssChunks[chunkId]) {
 /******/ 			promises.push(installedCssChunks[chunkId] = new Promise(function(resolve, reject) {
-/******/ 				var href = "" + ({"components/FooterNav":"components/FooterNav","pages/hacienda":"pages/hacienda","pages/home":"pages/home","pages/market":"pages/market","pages/user":"pages/user","components/HomeTabBar":"components/HomeTabBar","components/uni-swiper-dot/uni-swiper-dot":"components/uni-swiper-dot/uni-swiper-dot"}[chunkId]||chunkId) + ".wxss";
+/******/ 				var href = "" + ({"components/FooterNav":"components/FooterNav","pages/home":"pages/home","pages/hacienda":"pages/hacienda","pages/market":"pages/market","pages/user":"pages/user","hacienda/components/listSlot":"hacienda/components/listSlot","components/HomeSlot":"components/HomeSlot","components/HomeTabBar":"components/HomeTabBar"}[chunkId]||chunkId) + ".wxss";
 /******/ 				var fullhref = __webpack_require__.p + href;
 /******/ 				var existingLinkTags = document.getElementsByTagName("link");
 /******/ 				for(var i = 0; i < existingLinkTags.length; i++) {
