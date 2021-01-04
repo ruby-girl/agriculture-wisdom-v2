@@ -1,7 +1,0 @@
-{
-  "component": true,
-  "usingComponents": {
-    "tab-bar": "/components/HomeTabBar",
-    "home-slot": "/components/HomeSlot"
-  }
-}

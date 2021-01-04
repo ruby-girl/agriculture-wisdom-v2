@@ -1,6 +1,0 @@
-{
-  "navigationBarTitleText": "农场",
-  "usingComponents": {
-    "list-slot": "/hacienda/components/listSlot"
-  }
-}

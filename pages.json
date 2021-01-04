@@ -21,11 +21,6 @@
 		{
 			"root": "hacienda",
 			"pages": [{
-				"path": "list",
-				"style": {
-					"navigationBarTitleText": "农场"
-				}
-			},{
 				"path": "details",
 				"style": {
 					"navigationBarTitleText": "农场详情"

@@ -218,7 +218,7 @@ export default {
     // 轮播图
     swiperClick(type, id) {
       console.log(type, id);
-      // type 0为农场，1为地块项目，2为商品
+      // type 0为农场，1为地块，2为商品
       switch (type) {
         case "0":
           console.log("农场");
@@ -249,9 +249,7 @@ export default {
           console.log(val);
           break;
         case "限时秒杀地块":
-          uni.navigateTo({
-            url: `/hacienda/list`,
-          });
+          this.$emit("FooterOnClick", 1);
           break;
         case "精选项目":
           console.log(val);

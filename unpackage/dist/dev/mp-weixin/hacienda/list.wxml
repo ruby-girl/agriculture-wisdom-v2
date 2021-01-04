@@ -1,1 +1,0 @@
-<view class="hacienda_list_html _div data-v-abe4816c"><scroll-view scroll-y="{{true}}" class="data-v-abe4816c"><block wx:for="{{haciendaData}}" wx:for-item="item" wx:for-index="index" wx:key="index"><list-slot vue-id="{{'d0aaaa08-1-'+index}}" value="{{item}}" class="data-v-abe4816c" bind:__l="__l"></list-slot></block></scroll-view></view>
