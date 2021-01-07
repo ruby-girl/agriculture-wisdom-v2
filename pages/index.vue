@@ -1,7 +1,10 @@
 <!-- 引导页 -->
 <template>
   <div class="">
-    <Home v-if="footerIndex === 0" @FooterOnClick="FooterOnClick"></Home>
+    <Home
+      v-if="footerIndex === 0"
+      @FooterOnClick="FooterOnClick"
+    ></Home>
     <Hacienda v-if="footerIndex === 1"></Hacienda>
     <Market v-if="footerIndex === 3"></Market>
     <User v-if="footerIndex === 4"></User>
@@ -43,14 +46,6 @@ export default {
       this.footerIndex = val;
     },
   },
-  //生命周期 - 挂载完成（可以访问DOM元素）
-  onHide() {}, //页面隐藏
-  onUnload() {}, //页面卸载
-  onBackPress() {}, //页面返回
-  onShareAppMessage() {}, //分享
-  onReachBottom() {}, //下拉加载
-  onPageScroll() {}, //页面滚动
-  onPullDownRefresh() {}, //上拉刷新
 };
 </script>
 <style lang='less' scoped>

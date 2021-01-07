@@ -3,21 +3,21 @@
   <div class="hacienda_list_html">
     <div class="tab_bar">地块列表</div>
     <scroll-view scroll-y>
-      <ListSlot
+      <!-- <ListSlot
         v-for="(item, index) in haciendaData"
         :key="index"
         :value="item"
-      ></ListSlot>
+      ></ListSlot> -->
     </scroll-view>
   </div>
 </template>
 <script>
-import ListSlot from "../components/listSlot";
+// import ListSlot from "../components/listSlot";
 import { Hacienda } from "@/api/api";
 export default {
   //import引入的组件需要注入到对象中才能使用
   props: {},
-  components: { ListSlot },
+  // components: { ListSlot },
   data() {
     //这里存放数据
     return {
@@ -88,6 +88,9 @@ export default {
 </script>
 <style lang='less' scoped>
 .tab_bar {
+  position: fixed;
+  top: 0rpx;
+  width: 100vw;
   padding-top: var(--status-bar-height);
   flex-direction: row;
   justify-content: center;
@@ -97,6 +100,7 @@ export default {
   background: #ffffff;
 }
 .hacienda_list_html {
+  padding-top: calc(var(--status-bar-height) + 88rpx);
   background: #eeeeee;
   height: 100vh;
 }
