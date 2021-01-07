@@ -5,8 +5,8 @@
       <img class="hacienda_image" :src="value.farmPhotos[0].path" alt="" />
     </div>
     <div class="hacienda_content">
-      <div class="hacienda_name">{{ value.farm.farmName }}</div>
-      <div class="hacienda_introduce one_text">{{ value.farm.introduce }}</div>
+      <div class="hacienda_name">{{ value.massifName }}</div>
+      <div class="hacienda_introduce one_text">主营业务：{{ value.crops }}</div>
       <div class="hacienda_address">
         {{ value.farm.provinceName }}{{ value.farm.cityName
         }}{{ value.farm.countyName }}{{ value.farm.address }}
