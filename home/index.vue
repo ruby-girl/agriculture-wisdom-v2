@@ -1,3 +1,5 @@
+<!-- 首页详情-->
+
 <template>
 	<div class="home_html">
 	首页详情

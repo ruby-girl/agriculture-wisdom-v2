@@ -1,3 +1,4 @@
 import Home from "./home"
 import Hacienda from "./hacienda";
-export {Home,Hacienda}
+import Market from "./market";
+export { Home, Hacienda, Market }
