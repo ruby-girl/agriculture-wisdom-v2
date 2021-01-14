@@ -7,7 +7,10 @@
       :show-scrollbar="false"
     >
       <div class="home_content">
-        <swiper class="swiper-box" :circular="true">
+        <swiper
+          class="swiper-box"
+          :circular="true"
+        >
           <swiper-item
             v-for="(item, index) in info"
             :key="index"
@@ -24,14 +27,18 @@
         </swiper>
         <!-- 首页模块展示 -->
         <div class="home_lists">
-          <HomeSlot :title="'推荐产品'" :onMoreType="true" @onMore="onMore">
+          <HomeSlot
+            :title="'推荐产品'"
+            :onMoreType="true"
+            @onMore="onMore"
+          >
             <scroll-view scroll-x>
               <div class="recommend_lists">
                 <div
                   class="recommend_list"
                   v-for="(item, index) in recommendData"
                   :key="index"
-                  @click="shopDetails"
+                  @click="shopDetails(item.productId)"
                 >
                   <div class="recommend_image">
                     <img
@@ -61,7 +68,11 @@
                 :key="index"
               >
                 <div class="seckil_image">
-                  <img class="seckil_image" :src="item.coverPath" alt="" />
+                  <img
+                    class="seckil_image"
+                    :src="item.coverPath"
+                    alt=""
+                  />
                 </div>
                 <div class="seckil_content">
                   <div class="seckil_name">{{ item.productName }}</div>
@@ -94,7 +105,11 @@
               </div>
             </div>
           </HomeSlot>
-          <HomeSlot :title="'精选项目'" :onMoreType="true" @onMore="onMore">
+          <HomeSlot
+            :title="'精选项目'"
+            :onMoreType="true"
+            @onMore="onMore"
+          >
             <div class="seckil_lists">
               <div
                 class="seckil_list"
@@ -102,7 +117,11 @@
                 :key="index"
               >
                 <div class="seckil_image">
-                  <img class="seckil_image" :src="item.coverPath" alt="" />
+                  <img
+                    class="seckil_image"
+                    :src="item.coverPath"
+                    alt=""
+                  />
                 </div>
                 <div class="seckil_content">
                   <div class="seckil_name">{{ item.productName }}</div>
@@ -188,19 +207,19 @@ export default {
       //---------- 秒杀
       Home.getHomeProduct({ ...params, pageSize: 2, type: "seckill" }).then(
         (res) => {
-          this.seckillData = new Array(2).fill({
-            coverPath:
-              "https://xkzn-file.oss-cn-beijing.aliyuncs.com/cover/2020/11/14/1f31b79b-db9e-4320-97be-79d56f3743d0.jpg", //封面图
-            stock: "220", //库存
-            productName: "圣女果新鲜水果10斤保底", //商品名
-            price: "9.00", //价格
-            stopTime: "2021-01-02 22:11:28", //秒杀结束时间
-            sum: "800",
-            address: "23号圣女果地块",
-            ctiy: "成都",
-            ratio: (220 / 800) * 100,
-          });
-          // this.seckillData = res.data.data.records;
+          // this.seckillData = new Array(2).fill({
+          //   coverPath:
+          //     "https://xkzn-file.oss-cn-beijing.aliyuncs.com/cover/2020/11/14/1f31b79b-db9e-4320-97be-79d56f3743d0.jpg", //封面图
+          //   stock: "220", //库存
+          //   productName: "圣女果新鲜水果10斤保底", //商品名
+          //   price: "9.00", //价格
+          //   stopTime: "2021-01-02 22:11:28", //秒杀结束时间
+          //   sum: "800",
+          //   address: "23号圣女果地块",
+          //   ctiy: "成都",
+          //   ratio: (220 / 800) * 100,
+          // });
+          this.seckillData = res.data.data.records;
         }
       );
       // -------精选
@@ -237,9 +256,9 @@ export default {
       }
     },
     // 跳转商品详情
-    shopDetails() {
+    shopDetails(id) {
       uni.navigateTo({
-        url: "/home/index",
+        url: `/market/details?id=${id}`,
       });
     },
     // 更多
