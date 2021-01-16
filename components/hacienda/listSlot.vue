@@ -1,6 +1,6 @@
 <!-- 农场列表模板 -->
 <template>
-  <div class="list_slot_html">
+  <div class="list_slot_html" @click="haciendaDetails">
     <div class="hacienda_image">
       <img class="hacienda_image" :src="value.farmPhotos[0].path" alt="" />
     </div>
@@ -39,7 +39,13 @@ export default {
   //监控data中的数据变化
   watch: {},
   //方法集合
-  methods: {},
+  methods: {
+    haciendaDetails() {
+      uni.navigateTo({
+        url: `/hacienda/details?id=${this.value.productId}`,
+      });
+    },
+  },
   //生命周期 - 创建完成（可以访问当前this实例）
   created() {},
   //生命周期 - 挂载完成（可以访问DOM元素）

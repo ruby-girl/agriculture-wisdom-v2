@@ -40,12 +40,16 @@ export default {
   //显示,
   onShow() {},
   //页面初次显示
-  onReady() {
-    if (this.Time) {
-      this.setIntervalTime = setInterval(() => {
-        this.countTime = Countdown(this.Time);
-      }, 1000);
-    }
+  onReady() {},
+
+  watch: {
+    Time: function (val) {
+      if (this.Time) {
+        this.setIntervalTime = setInterval(() => {
+          this.countTime = Countdown(this.Time);
+        }, 1000);
+      }
+    },
   },
   //方法集合
   methods: {

@@ -23,7 +23,7 @@
 			"pages": [{
 				"path": "details",
 				"style": {
-					"navigationBarTitleText": "农场详情"
+					"navigationBarTitleText": "领地项目详情"
 				}
 			}]
 		},

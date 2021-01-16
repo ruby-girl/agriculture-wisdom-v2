@@ -30,7 +30,7 @@ export default {
   components: {},
   data() {
     return {
-      orientationIcon: require("../assets/orientation.png"),
+      orientationIcon: require("@/assets/orientation.png"),
       customBar: "",
       orientationCity: "绵阳",
     };

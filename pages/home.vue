@@ -7,10 +7,7 @@
       :show-scrollbar="false"
     >
       <div class="home_content">
-        <swiper
-          class="swiper-box"
-          :circular="true"
-        >
+        <swiper class="swiper-box" :circular="true">
           <swiper-item
             v-for="(item, index) in info"
             :key="index"
@@ -27,11 +24,7 @@
         </swiper>
         <!-- 首页模块展示 -->
         <div class="home_lists">
-          <HomeSlot
-            :title="'推荐产品'"
-            :onMoreType="true"
-            @onMore="onMore"
-          >
+          <HomeSlot :title="'推荐产品'" :onMoreType="true" @onMore="onMore">
             <scroll-view scroll-x>
               <div class="recommend_lists">
                 <div
@@ -57,7 +50,7 @@
           </HomeSlot>
           <HomeSlot
             :title="'限时秒杀地块'"
-            :Time="'2021-01-02 22:11:28'"
+            :Time="stopTime"
             :onMoreType="true"
             @onMore="onMore"
           >
@@ -66,13 +59,10 @@
                 class="seckil_list"
                 v-for="(item, index) in seckillData"
                 :key="index"
+                @click="haciendaDetails(item.productId)"
               >
                 <div class="seckil_image">
-                  <img
-                    class="seckil_image"
-                    :src="item.coverPath"
-                    alt=""
-                  />
+                  <img class="seckil_image" :src="item.coverPath" alt="" />
                 </div>
                 <div class="seckil_content">
                   <div class="seckil_name">{{ item.productName }}</div>
@@ -89,7 +79,7 @@
                   <div class="seckil_info">
                     <div class="seckil_info_left">
                       <i class="fa fa-map-marker"></i>
-                      <div class="ctiy">{{ item.ctiy }}</div>
+                      <div class="ctiy">{{ item.city }}</div>
                       <div class="address">{{ item.address }}</div>
                     </div>
                     <div class="seckil_info_right">
@@ -105,23 +95,16 @@
               </div>
             </div>
           </HomeSlot>
-          <HomeSlot
-            :title="'精选项目'"
-            :onMoreType="true"
-            @onMore="onMore"
-          >
+          <HomeSlot :title="'精选项目'" :onMoreType="true" @onMore="onMore">
             <div class="seckil_lists">
               <div
                 class="seckil_list"
                 v-for="(item, index) in bestData"
                 :key="index"
+                @click="haciendaDetails(item.productId)"
               >
                 <div class="seckil_image">
-                  <img
-                    class="seckil_image"
-                    :src="item.coverPath"
-                    alt=""
-                  />
+                  <img class="seckil_image" :src="item.coverPath" alt="" />
                 </div>
                 <div class="seckil_content">
                   <div class="seckil_name">{{ item.productName }}</div>
@@ -138,7 +121,7 @@
                   <div class="seckil_info">
                     <div class="seckil_info_left">
                       <i class="fa fa-map-marker"></i>
-                      <div class="ctiy">{{ item.ctiy }}</div>
+                      <div class="ctiy">{{ item.city }}</div>
                       <div class="address">{{ item.address }}</div>
                     </div>
                     <div class="seckil_info_right">
@@ -161,9 +144,9 @@
 </template>
 
 <script>
-import TabBar from "../components/HomeTabBar.vue"; //顶部导航
+import TabBar from "../components/home/HomeTabBar.vue"; //顶部导航
 import { Home } from "@/api/api.js"; //数据请求
-import HomeSlot from "@/components/HomeSlot.vue"; //首页模块插槽
+import HomeSlot from "@/components/home/HomeSlot.vue"; //首页模块插槽
 export default {
   components: {
     TabBar,
@@ -175,6 +158,7 @@ export default {
       recommendData: [],
       seckillData: [],
       bestData: [],
+      stopTime: null,
     };
   },
 
@@ -193,38 +177,32 @@ export default {
     // 获取商品列表
     getHomeProduct() {
       // -------推荐
-      let params = {
+      let parames = {
         pageNum: 1,
         pageSize: 10,
         product: {
           parentId: "1", //0是项目；1是商品
         },
       };
-      Home.getHomeProduct({ ...params, type: "recommend" }).then((res) => {
+      Home.getHomeProduct({ ...parames, type: "recommend" }).then((res) => {
         this.recommendData = res.data.data.records;
         console.log(this.recommendData);
       });
       //---------- 秒杀
-      Home.getHomeProduct({ ...params, pageSize: 2, type: "seckill" }).then(
+      Home.getHomeProduct({ ...parames, pageSize: 2, type: "seckill" }).then(
         (res) => {
-          // this.seckillData = new Array(2).fill({
-          //   coverPath:
-          //     "https://xkzn-file.oss-cn-beijing.aliyuncs.com/cover/2020/11/14/1f31b79b-db9e-4320-97be-79d56f3743d0.jpg", //封面图
-          //   stock: "220", //库存
-          //   productName: "圣女果新鲜水果10斤保底", //商品名
-          //   price: "9.00", //价格
-          //   stopTime: "2021-01-02 22:11:28", //秒杀结束时间
-          //   sum: "800",
-          //   address: "23号圣女果地块",
-          //   ctiy: "成都",
-          //   ratio: (220 / 800) * 100,
-          // });
-          this.seckillData = res.data.data.records;
+          this.stopTime = res.data.data.records[0].stopTime;
+          this.seckillData = res.data.data.records.map((item) => {
+            return {
+              ...item,
+              ratio: (Number(item.stock) / Number(item.sum)) * 100,
+            };
+          });
         }
       );
       // -------精选
       Home.getHomeProduct({
-        ...params,
+        ...parames,
         product: {
           parentId: "0",
         },
@@ -259,6 +237,11 @@ export default {
     shopDetails(id) {
       uni.navigateTo({
         url: `/market/details?id=${id}`,
+      });
+    },
+    haciendaDetails(id) {
+      uni.navigateTo({
+        url: `/hacienda/details?id=${id}`,
       });
     },
     // 更多

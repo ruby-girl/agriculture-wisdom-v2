@@ -57,7 +57,7 @@
 
 <script>
 import { Market, Home } from "@/api/api";
-import MarketGoods from "../components/MarketGoods";
+import MarketGoods from "../components/goods/MarketGoods";
 import zzxTabs from "../components/zzx-tabs.vue";
 export default {
   components: {
@@ -105,12 +105,12 @@ export default {
     },
     // 获取分类列表
     getSortList() {
-      let params = {
+      let parames = {
         pageNum: 1,
         pageSize: 100,
         parentId: "1",
       };
-      Market.getSortList(params).then((res) => {
+      Market.getSortList(parames).then((res) => {
         let data = res.data.data.records;
         data.unshift({
           id: "-1",

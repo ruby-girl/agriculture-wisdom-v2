@@ -19,28 +19,28 @@
 			return {
 				list: [{
 					title: '首页',
-					icon: require("../assets/home.png"),
-					icon_: require("../assets/home_.png"),
+					icon: require("@/assets/home.png"),
+					icon_: require("@/assets/home_.png"),
 					path: ''
 				}, {
 					title: '农场',
-					icon: require("../assets/hacienda.png"),
-					icon_: require("../assets/hacienda_.png"),
+					icon: require("@/assets/hacienda.png"),
+					icon_: require("@/assets/hacienda_.png"),
 					path: ''
 				}, {
 					title: "",
-					icon: require("../assets/sweep.png"),
-					icon_: require("../assets/sweep_.png"),
+					icon: require("@/assets/sweep.png"),
+					icon_: require("@/assets/sweep_.png"),
 					path: ""
 				}, {
 					title: '集市',
-					icon: require("../assets/market.png"),
-					icon_: require("../assets/market_.png"),
+					icon: require("@/assets/market.png"),
+					icon_: require("@/assets/market_.png"),
 					path: ''
 				}, {
 					title: '我的',
-					icon: require("../assets/user.png"),
-					icon_: require("../assets/user_.png"),
+					icon: require("@/assets/user.png"),
+					icon_: require("@/assets/user_.png"),
 					path: ''
 				}, ]
 			}

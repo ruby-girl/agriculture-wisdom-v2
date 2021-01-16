@@ -4,7 +4,7 @@
     <div class="tab_bar">地块列表</div>
     <scroll-view
       scroll-y
-      style="height:calc(100vh - 226rpx)"
+      style="height: calc(100vh - 226rpx)"
       @scrolltolower="LoadSoilList"
     >
       <ListSlot
@@ -17,8 +17,8 @@
   </div>
 </template>
 <script>
-import ListSlot from "../components/listSlot";
-import ListBottom from "../components/ListBottom";
+import ListSlot from "@/components/hacienda/listSlot";
+import ListBottom from "@/components/ListBottom";
 import { Hacienda } from "@/api/api";
 export default {
   //import引入的组件需要注入到对象中才能使用
@@ -35,6 +35,9 @@ export default {
       pageData: {
         pageNum: 1,
         pageSize: 6,
+        product: {
+          parentId: "0",
+        },
       },
     };
   },

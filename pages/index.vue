@@ -19,7 +19,7 @@ import Home from "./home.vue"; //首页
 import Hacienda from "./hacienda.vue"; //农场
 import Market from "./market.vue"; //集市
 import User from "./user.vue"; //个人中心
-import FooterNav from "@/components/FooterNav.vue"; //个人中心
+import FooterNav from "@/components/pages/FooterNav.vue"; //底部导航栏
 export default {
   components: {
     Home,
