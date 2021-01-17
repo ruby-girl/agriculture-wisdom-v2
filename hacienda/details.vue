@@ -1,6 +1,7 @@
 <!-- 项目详情 -->
 <template>
   <div class="hacienda_detalis_html">
+    <PageTabbar :title="'领地项目详情'"></PageTabbar>
     <div class="cover_img">
       <swiper
         class="swiper-box"
@@ -94,6 +95,7 @@
 </template>
 <script>
 import { Market, Hacienda } from "@/api/api.js";
+import PageTabbar from "@/components/PageTabbar";
 import FileAndTrace from "./components/FileAndTrace"; //成长档案&溯源详情
 import UserCard from "./components/UserCard"; //农场主信息
 import zzxTabs from "../components/zzx-tabs.vue"; //标签页
@@ -103,7 +105,15 @@ import Comment from "@/components/Comment"; //新农人说
 export default {
   //import引入的组件需要注入到对象中才能使用
   props: {},
-  components: { FileAndTrace, UserCard, zzxTabs, Introduce, FarmShow, Comment },
+  components: {
+    PageTabbar,
+    FileAndTrace,
+    UserCard,
+    zzxTabs,
+    Introduce,
+    FarmShow,
+    Comment,
+  },
   data() {
     //这里存放数据
     return {

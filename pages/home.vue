@@ -218,16 +218,21 @@ export default {
       // type 0为农场，1为地块，2为商品
       switch (type) {
         case "0":
-          console.log("农场");
           uni.navigateTo({
-            url: `/hacienda/details?id=${id}`,
+            url: `/home/hacienda?id=${id}`,
           });
           break;
         case "1":
           console.log("地块");
+          uni.navigateTo({
+            url: `/hacienda/details?id=${id}`,
+          });
           break;
         case "2":
           console.log("商品");
+          uni.navigateTo({
+            url: `/market/details?id=${id}`,
+          });
           break;
         default:
           break;
@@ -248,13 +253,13 @@ export default {
     onMore(val) {
       switch (val) {
         case "推荐产品":
-          console.log(val);
+          this.$emit("FooterOnClick", 3);
           break;
         case "限时秒杀地块":
           this.$emit("FooterOnClick", 1);
           break;
         case "精选项目":
-          console.log(val);
+          this.$emit("FooterOnClick", 1);
           break;
 
         default:

@@ -54,6 +54,7 @@
 		//方法集合
 		methods: {
 			FooterOnClick(val){
+				console.log(val);
 				this.$emit('FooterOnClick',val)
 			}
 		},

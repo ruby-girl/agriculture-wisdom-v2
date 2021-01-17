@@ -8,43 +8,52 @@
 			}
 		}
 	],
-
-	"subPackages": [{
+	"subPackages": [
+		{
 			"root": "home",
-			"pages": [{
-				"path": "index",
-				"style": {
-					"navigationBarTitleText": "商品详情"
+			"pages": [
+				{
+					"path": "hacienda",
+					"style": {
+						"navigationBarTitleText": "农场详情",
+						"navigationStyle": "custom"
+					}
 				}
-			}]
+			]
 		},
 		{
 			"root": "hacienda",
-			"pages": [{
-				"path": "details",
-				"style": {
-					"navigationBarTitleText": "领地项目详情"
+			"pages": [
+				{
+					"path": "details",
+					"style": {
+						"navigationBarTitleText": "领地项目详情"
+					}
 				}
-			}]
+			]
 		},
 		{
 			"root": "market",
-			"pages": [{
-				"path": "details",
-				"style": {
-					"navigationBarTitleText": "商品详情",
-					"navigationStyle":"custom"
+			"pages": [
+				{
+					"path": "details",
+					"style": {
+						"navigationBarTitleText": "商品详情",
+						"navigationStyle": "custom"
+					}
 				}
-			}]
+			]
 		},
 		{
 			"root": "user",
-			"pages": [{
-				"path": "index",
-				"style": {
-					"navigationBarTitleText": "个人中心子页面"
+			"pages": [
+				{
+					"path": "index",
+					"style": {
+						"navigationBarTitleText": "个人中心子页面"
+					}
 				}
-			}]
+			]
 		}
 	],
 	"globalStyle": {
@@ -53,6 +62,7 @@
 		"navigationBarBackgroundColor": "#F8F8F8",
 		"backgroundColor": "#F8F8F8",
 		"scrollIndicator": "none", // 不显示滚动条  
+		"navigationStyle": "custom",
 		"app-plus": {
 			"scrollIndicator": "none" //全局 在APP页面都不显示滚动条  
 		}

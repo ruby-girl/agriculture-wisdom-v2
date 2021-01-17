@@ -1,12 +1,7 @@
 <!-- 商品详情-->
 <template>
   <div class="goods_html">
-    <div class="tab_bar">
-      <div class="goods_go_back" @click="goBack">
-        <i class="fa fa-angle-left" style="font-size: 40rpx; color: #fff"></i>
-      </div>
-      <div class="goods_text">商品详情</div>
-    </div>
+    <PageTabbar :title="'商品详情'"></PageTabbar>
     <div class="goods_image">
       <swiper
         class="swiper-box"
@@ -104,6 +99,7 @@
 
 <script>
 import { Market, Hacienda } from "@/api/api";
+import PageTabbar from "@/components/PageTabbar";
 import FileAndTrace from "./components/FileAndTrace"; //成长档案&溯源详情
 import UserCard from "./components/UserCard"; //农场主信息
 import zzxTabs from "../components/zzx-tabs.vue"; //标签页
@@ -112,6 +108,7 @@ import FarmShow from "@/components/FarmShow"; //农场秀
 import Comment from "@/components/Comment"; //新农人说
 export default {
   components: {
+    PageTabbar,
     FileAndTrace,
     UserCard,
     zzxTabs,
@@ -144,10 +141,7 @@ export default {
     swiperChange(event) {
       console.log(event);
     },
-    // 返回
-    goBack() {
-      uni.navigateBack();
-    },
+
     // 获取商品详情
     getGoodsDetail(id) {
       let parames = {
@@ -177,33 +171,9 @@ export default {
 .goods_html {
   padding-bottom: 120rpx;
 }
-.tab_bar {
-  position: fixed;
-  z-index: 2;
-  top: 0rpx;
-  width: 100vw;
-  padding-top: var(--status-bar-height);
-  height: calc(var(--status-bar-height) + 88rpx);
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  box-sizing: border-box;
-  background: rgba(255, 255, 255, 0);
-}
 
 .swiper-box {
   height: 800rpx;
-}
-
-.goods_go_back,
-.goods_text {
-  color: #fff;
-}
-
-.goods_go_back {
-  padding: 0px 30rpx;
-  position: absolute;
-  left: 25rpx;
 }
 
 .goods_image {
