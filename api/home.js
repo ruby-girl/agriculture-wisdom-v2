@@ -16,6 +16,14 @@ const Home = {
       data
     })
   },
+  // 获取农场下的项目和商品
+  getfindfarm: (data) => {
+    return http.request({
+      url: 'marketing/api/product/findfarm',
+      method: 'post',
+      data
+    })
+  },
 }
 
 export default Home

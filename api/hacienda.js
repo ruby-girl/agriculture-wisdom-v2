@@ -18,6 +18,7 @@ const Hacienda = {
     })
   },
   
+  
   // 获取直播地址
   getLivePath: (data) => {
     return http.request({

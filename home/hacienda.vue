@@ -1,10 +1,18 @@
 <!-- 农场详情-->
 <template>
   <div class="hacienda_html">
-    <scroll-view scroll-y @scroll="floatTab" style="height: 100vh">
+    <scroll-view
+      scroll-y
+      @scroll="floatTab"
+      style="height: 100vh"
+    >
       <PageTabbar :title="TabbarTitle"></PageTabbar>
       <div class="hacienda_banner">
-        <img class="hacienda_banner" src="" alt="" />
+        <img
+          class="hacienda_banner"
+          src=""
+          alt=""
+        />
       </div>
       <!-- 农场信息 -->
       <div
@@ -37,7 +45,21 @@
         ref="mytabs"
       >
       </zzx-tabs>
-      <div class="hacienda_html_content"></div>
+      <!-- 视频和详情 -->
+      <div class="hacienda_html_content">
+        <div
+          class="hacienda_video"
+          v-if="current===0"
+        >
+          <HaciendaVideo></HaciendaVideo>
+        </div>
+        <div
+          class="hacienda_info"
+          v-if="current===1"
+        >
+          <HaciendaInfo :HaciendaData="HaciendaData"></HaciendaInfo>
+        </div>
+      </div>
     </scroll-view>
   </div>
 </template>
@@ -46,14 +68,15 @@
 import { Hacienda } from "@/api/api";
 import PageTabbar from "@/components/PageTabbar";
 import zzxTabs from "../components/zzx-tabs.vue"; //标签页
-
+import HaciendaInfo from "./components/HaciendaInfo";
+import HaciendaVideo from "./components/HaciendaVideo";
 export default {
-  components: { PageTabbar, zzxTabs },
+  components: { PageTabbar, zzxTabs, HaciendaInfo, HaciendaVideo },
   data() {
     return {
       orientationIcon: require("@/assets/orientation.png"),
       TabbarTitle: "",
-      current: 0,
+      current: 1,
       topNum: 312,
       HaciendaData: {},
       boxHeight: 0,
@@ -120,7 +143,5 @@ export default {
   justify-content: center;
 }
 .hacienda_html_content {
-  background: wheat;
-  height: 1000px;
 }
 </style>
